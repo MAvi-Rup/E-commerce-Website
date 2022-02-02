@@ -1,0 +1,441 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	text-align: center;
+	word-spacing: normal;
+	letter-spacing: 1px;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+
+
+.main_wraper{
+	width:auto;
+	height:auto;
+	margin:auto;
+	background: #BEBEC4;
+}
+.top
+{
+background:#28282B;
+
+height:50px;
+
+}
+.mail
+	{
+	width:30%;
+	float:left;
+	
+	}
+.account
+	{
+	width:30%;
+	float:left;
+	
+	}
+#ac
+{
+	text-decoration:none;
+}
+.s_wraper{
+	width:auto;
+	margin-top: 20px;
+	height:150px;
+	background:#222327;
+}
+.header_wraper{
+	width:auto;
+	height:150px;
+	background:#222327;
+}
+.navbar
+{
+	margin-top: 0.5px;
+	height: auto;
+	background: #222327;
+}
+.cont{
+	width:auto;
+	height:80px;
+	background:#F03438;
+}
+.search{
+	width:40%;
+	heigth:70px;
+
+	
+	
+	
+	}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #222327;
+	background: #222327;
+    color: #FFFFFF;
+    padding:20px;
+	margin-left: 100px;
+	margin-right: 20px;
+	
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #222327;
+    min-width: 160px;
+	margin-left:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+	padding-top:5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #222327;
+color:#E73838}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	color:#E73838;
+}
+
+
+
+
+/*this is account*/
+
+.dropdownacc {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentacc {
+    display: none;
+    position:absolute;
+    background-color: #222327;
+    min-width: 200px;
+	min-height: 240px;
+	
+	
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-contentacc a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+	padding-top:5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contentacc a:hover {background-color: #222327;
+color:#E73838}
+
+/* Show the dropdown menu on hover */
+.dropdownacc:hover .dropdown-contentacc {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	color:#E73838;
+}
+
+.poster_wraper{
+	height:450px;
+	width:auto;
+	background:#222327;
+}
+#cata{
+	height:400px;
+	width:200px;
+	margin-left:170px;
+	padding:5 px;
+	background:#222327;
+	color:#000;
+	font-size:18px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.content_wraper{
+	width:auto;
+	height:auto;
+	background:#FFF;
+}
+
+
+#login_form{height:300px;
+width:500px;
+background:#FFF;
+color:#000;
+margin:0 auto;
+padding:5px;
+
+}
+.inputvalues{width:450px;
+margin:0 auto;
+padding:5px;
+}
+.login_btn{
+	background:#0C0;
+	padding:5px;
+	
+	color:#FFF;
+	width:90%;
+	text-align:center;
+	
+}
+.extra_btn{
+	padding:5px;
+	
+	color:#FFF;
+	text-align:center;
+	
+}
+.register_btn{
+	background:#3C0;
+	padding:5px;
+	color:#FFF;
+	width:90%;
+	text-align:center;
+	margin: 10px;
+}
+
+
+	
+
+#cata_title{
+	color:#FFF;
+	text-align:left;
+	}
+	#cata_title li{list-style:none;
+	margin:18 px;}
+	#cata_title a {
+		color:#000;
+		font-size:16px;
+		text-decoration:none;
+		margin:5px;
+		padding:10px;}
+		#cata_title a:hover{
+			color:#3C0;
+			text-decoration:underline;
+			font-weight:bolder;
+			}
+#headline{
+	background:#EFEFEF;
+	color:#000;
+	height:40px;
+	padding-top:0px;
+	margin-top:30px;
+	}
+	#headline2{
+	background:#FFF;
+	color:#000;
+	height:40px;
+	padding-top:0px;
+	margin-top:30px;
+	}
+#products_box{
+	padding:20px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:5px;
+	text-align:left;
+	text-decoration:none;
+	color:#FFF;
+	background:#FFF;
+	
+	}
+#products_box1{
+	width: 40%;
+	padding:10px;
+	border: 2px solid #626161;
+	
+	margin-top:10px;
+	margin-bottom:5px;
+	text-align:left;
+	text-decoration:none;
+	color:#FFF;
+	background:#FFF;
+	
+	}
+#products_box2{
+	width: 45%;
+	height: 427px;
+	padding:10px;
+	border: 2px solid #626161;
+	margin-right: 170px;
+	
+	margin-top:10px;
+	margin-bottom:5px;
+	text-align:left;
+	text-decoration:none;
+	color:#FFF;
+	background:#FFF;
+	
+	}
+
+	
+#cofounder_box{
+	float:left;
+		margin:0 auto;
+		margin-top:40 px;
+		
+		
+		padding:5px;
+		border:2px solid #F4F4F4;
+		
+		
+		
+	
+	}
+	#single_product{
+		height: auto;
+		width: auto;
+		
+		float:left;
+		margin:0 auto;
+		
+		
+		padding:20px; 
+		margin-right:10px;
+		border:2px solid #F4F4F4;
+		
+		
+		margin-top:10px;
+		}
+		#del_pro{
+			background:#FFF;
+			float:left;
+		margin:0 auto;
+		
+		
+		padding:20px; 
+		margin-right:10px;
+		border:2px solid #F4F4F4;
+		
+		
+		margin-top:10px;
+		
+		}
+
+#product_main{
+	color:#000;
+			background:#FFF;
+			text-align:center;
+			text-decoration:none;
+			width:1000px;
+			height:1500px;
+			margin-left:200px;
+		
+		}
+
+		#product_page{
+	color:#000;
+			background:#FFF;
+			text-align:center;
+			text-decoration:none;
+			width:auto;
+			height:600px;
+			margin-left:200px;
+		
+		}
+#rel_product_page{
+	color:#000;
+			background:#FFF;
+			text-align:center;
+			text-decoration:none;
+			width:auto;
+			height:500px;
+			margin-left:200px;
+		
+		}
+		#del_page{
+			text-decoration:none;
+	color:#000;
+			background:#FFF;
+			text-align:center;
+			
+			width:1000px;
+			height:2000px;;
+			margin-left:150px;
+		
+		
+		}
+		#admin_page{
+			text-decoration:none;
+	color:#000;
+			background:#FFF;
+			text-align:center;
+			width:1100px;
+			height:1500px;
+			margin-left:100px;
+		
+		}
+			
+.footer{
+	width:auto;
+	height:50px;
+	background:#28282B;
+	color:#FFF; 
+	content: normal;
+		font-family:sans-serif;
+}
+.main_wraper .content_wraper #product_page #products_box p strong {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+.main_wraper .content_wraper #product_page #products_box p {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
